@@ -1,0 +1,107 @@
+<html> 
+    <title> 
+       Pippa's Store
+    </title>
+    <head>
+      <script src="https://kit.fontawesome.com/6b7f599a00.js" crossorigin="anonymous"></script>
+    <link href="WebsiteMenu.css" rel="stylesheet">
+    </head>
+    <body> 
+        <!--For Logo --> 
+        <div class="Logo"&nbsp;>
+      <img src="images\PippaLogo.jpg" class="ImageLogo"> 
+        </div>
+         <!--For Title --> 
+        <div class ="Title"> 
+          &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspPippa's Store
+            <br>
+        </div>
+        <!-- For Nav Bar-->
+        <div class="NavBar">
+        <nav>  
+            <ul>   
+            <li>  
+            <a href="WebsiteAbout.html">About</a>  
+            </li>  
+            <li>  
+            <a href="WebsiteHome.html">Home</a>  
+            </li>  
+            <li> <a href="WebsitePhotos.html">Photos</a>  
+            </li>  
+            <li>  
+            <a href="WebsiteContact.html">Contact</a>  
+            </li>  
+            </ul>  
+            </nav>  
+            </div>
+            <br><br><br><br>
+             <!-- For Body Content-->
+            <img src="images/Menu.jpg" class = "MenuImg">
+            <img src="images/BundlesMenu.jpg" class = "MenuBundles">
+            <a href="WebsiteContact.html"><button class="buttonMenu"><span>Contact Us!</span></button></a>
+            
+              <div class="slideshow-container">
+
+                <div class="mySlides fade">
+                  <div class="numbertext">1 / 3</div>
+                  <img src="images/YumFood3.jpg" style="width:300px" height="300px">
+                  <div class="text">Longsilog</div>
+                </div>
+                
+                <div class="mySlides fade">
+                  <div class="numbertext">2 / 3</div>
+                  <img src="images/YumFood2.jpg" style="width:300px" height="300px">
+                  <div class="text">Porksilog</div>
+                </div>
+                
+                <div class="mySlides fade">
+                  <div class="numbertext">3 / 3</div>
+                  <img src="images/YumFood.jpg" style="width:300px" height="300px">
+                  <div class="text">Burger Steak</div>
+                </div>
+                
+                </div>
+                <br>
+                
+                <div style="text-align:center">
+                  <span class="dot"></span> 
+                  <span class="dot"></span> 
+                  <span class="dot"></span> 
+                </div>
+                 <!-- For footer-->
+            <div class="footer">
+              <div class="footerinfo"><a href="https://www.facebook.com/Pippas-100445218394239"><p><i class="fa-brands fa-facebook"></i>  https://www.facebook.com/Pippas-100445218394239</p></a></div>
+              <div class="footerinfo2"><p><i class="fa-solid fa-phone"></i>  09613677576</p></div>
+              <img src="images\PippaLogo.jpg" class="LogoFooter">
+              <img src="images\milkteapic-removebg-preview.png" class="FooterDesign">
+              <img src="images\egginpanpic-removebg-preview.png" class="FooterDesign2">
+              <div class="footerinfo3"><p> For Any Inquires About the website Please Email<br>
+                louisarcigal@gmail.com</p></div>
+                <div class="footerinfo4">Where food and family meet, love fills the table.</div>
+            </div>
+             <!-- JS for slideshow-->
+            <script>
+              
+              let slideIndex = 0;
+                  showSlides();
+
+              function showSlides() {
+              let i;
+              let slides = document.getElementsByClassName("mySlides");
+              let dots = document.getElementsByClassName("dot");
+               for (i = 0; i < slides.length; i++) {
+               slides[i].style.display = "none";  
+             }
+               slideIndex++;
+              if (slideIndex > slides.length) {slideIndex = 1}    
+               for (i = 0; i < dots.length; i++) {
+              dots[i].className = dots[i].className.replace(" active", "");
+               }
+                slides[slideIndex-1].style.display = "block";  
+               dots[slideIndex-1].className += " active";
+               setTimeout(showSlides, 6000); // Change image every 2 seconds
+}
+            
+              </script>
+            </body>
+</html>

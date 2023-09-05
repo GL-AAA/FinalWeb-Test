@@ -1,0 +1,287 @@
+.Logo{
+    position: absolute;
+    border-radius: 200px;
+    margin-right: 0px;
+    margin-left: 0px;
+    color: orange;
+    top: 20px;
+    z-index: 3;
+  }
+  .ImageLogo { 
+      width: 200px;
+      border-radius: 100px;
+     float: left;
+     margin-right: 20px;
+  
+  
+     }
+      /*For Navigation Bar */
+     .NavBar {  
+      background-color: rgba(243,14,17,255);  
+      position:absolute;  
+      left: 600px;  
+      right: 0px;  
+      top: 90px;  
+      bottom: 110px;
+      height: 60px;  
+      display: flex;  
+      align-items: center;
+      justify-content: left; 
+      z-index: 3;
+      }  
+      .NavBar * {  
+      display: inline;  
+      }  
+      .NavBar li {  
+      margin: 20px;  
+      }  
+      .NavBar li a {  
+      color: lightyellow;  
+      font-size: 25px;
+      font-family: serif;
+      text-decoration: none;  
+      /*Animation*/
+      background: linear-gradient(to bottom, var(--mainColor) 0%, var(--mainColor) 100%);
+    background-position: 0 100%;
+    background-repeat: repeat-x;
+    background-size: 3px 3px;
+    text-decoration: none;
+      }  
+      .NavBar li a:hover{
+      background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23ff9800' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+    background-position: 0 100%;
+    background-size: auto 6px;
+    background-repeat: repeat-x;
+    color: white;
+    text-decoration: none;
+      }
+      /*For title*/
+      .Title{
+        position: absolute;
+        font-size: 65px;
+        font-family: serif;
+        background-color: rgba(243,14,17,255);
+        color: white;
+        width: 100%;
+        left: 0px;
+        top: 80px;
+        box-shadow: 0 24px 32px rgba(0, 0, 0, 0.5);
+        z-index: 2;
+      }
+  
+      /*For Body Animation */ 
+      body {
+        animation: fadeInAnimation ease 3s;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+    }
+     
+    @keyframes fadeInAnimation {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+         }
+    }
+    /*For Body Content */ 
+  body{ 
+    background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+    background-image: url("images/Pippas\ Store.jpg") ;
+    background-position:bottom;
+    background-size:1500px;
+    background-position-y:center;
+    }
+  .redtransparent{
+    left: 0px;
+    width: 1263px;
+    height: 625px;
+    position: absolute;
+    background-color: darkgray;
+    opacity: 0.4;
+  }
+.CircleBackground{
+    width: 560px;
+    border-radius: 404px;
+    position: absolute;
+    height: 560px;
+    left: -103px;
+    top: 89px;
+    padding: 5px;
+    background: red;
+    z-index: 1;
+}
+.CircleBackground:hover{
+  background-image: url(images/YumFood2.jpg);
+  animation: fadeInAnimation ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  background: white;
+}
+/*For Body Content*/ 
+  .contact-us-box {
+    position: absolute;
+    width: 406px;
+    height: 194px;
+    top: 296px;
+    right: 377px;
+    color: black;
+}
+.LogoInfo{
+    width: 150px;
+    border-radius: 75px;
+    position: absolute;
+    left: 308px;
+    top: -50px;
+}
+.text1 {
+    font-size: 500%;
+    font-weight: bold;
+    position: absolute;
+    left: 133px;
+    top: -90px;
+}
+.text2 {
+    font-size: 900%;
+    font-weight: bold;
+    color: red;
+    position: absolute;
+    right: 21px;
+    top: -123px;
+}
+.text3 {
+    position: absolute;
+    left: 47px;
+    top: 138px;
+    font-size: 150%;
+    color: white;
+}
+  .contact-details{
+    justify-content: center;
+  }
+  .BackgroundStart{
+    position: absolute;
+    width: 1263px;
+    height: 60px;
+    left: 0px;
+  }
+  .ImageCenter{ 
+    position: absolute;
+    width: 100px;
+    border-radius: 50px;
+    top: 280px;
+    left: 560px;
+   z-index: 4;
+  
+  }
+  .Design{ 
+    position: absolute;
+    left: 470px;
+    top: 270px;
+    transform: rotate(320deg);
+    height: 100px;
+    z-index: 2;
+    min-width: 20px;
+    max-width: 300px;
+  }
+  .buttonMenu{
+    position: absolute;
+    top: 535px;
+    right: 444px;
+    padding: 10px 20px;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: red;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+  
+  .buttonMenu:hover {background-color: red}
+  
+  .buttonMenu:active {
+    background-color: red;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+  .buttonMenu span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .buttonMenu span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .buttonMenu:hover span {
+    padding-right: 25px;
+  }
+  
+  .buttonMenu:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+  .footer {
+    position: absolute;
+    left: 0px;
+    bottom: -210px;
+    width: 100%;
+    height: 100px;
+    background-color: red;
+    color: white;
+    text-align: center;
+  }
+  .footerinfo{ 
+    position: absolute;
+    left:  10px;
+  }
+  .footerinfo2{ 
+    position: absolute;
+    left:  10px;
+    top: 50px;
+  }
+  .LogoFooter{ 
+    position: absolute;
+    width: 100px;
+    border-radius: 50px;
+    right: 100px;
+    top: -50px;
+  }
+  .FooterDesign{
+    position: absolute;
+    transform: rotate(320deg);
+    height: 50px;
+    right: 190px;
+    top: -30px;
+  }
+  .FooterDesign2{
+    position: absolute;
+    height: 80px;
+    right: 30px;
+    top: -30px;
+  }
+  .footerinfo3{ 
+    position: absolute;
+    right:  10px;
+    top: 30px;
+    color: black;
+    
+  }
+  .footerinfo4{ 
+    position: absolute;
+    top: 50px;
+    right: 463px;
+    font-style: Serif;
+  }  

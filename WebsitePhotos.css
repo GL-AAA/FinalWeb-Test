@@ -1,0 +1,387 @@
+/*For Logo - change later to div*/
+.Logo{ 
+    position: absolute;
+      border-radius: 200px;
+      margin-right: 0px;
+      margin-left: 0px;
+      color: orange;
+      top: 20px;
+      z-index: 2;
+  
+  
+  }
+  .ImageLogo { 
+      width: 200px;
+      border-radius: 100px;
+     float: left;
+     margin-right: 20px;
+  
+  
+     }
+      /*For Navigation Bar */
+     .NavBar {  
+      background-color: rgba(243,14,17,255);  
+      position:absolute;  
+      left: 600px;  
+      right: 0px;  
+      top: 90px;  
+      bottom: 110px;
+      height: 60px;  
+      display: flex;  
+      align-items: center;
+      justify-content: left; 
+      z-index: 2;
+      }  
+      .NavBar * {  
+      display: inline;  
+      }  
+      .NavBar li {  
+      margin: 20px;  
+      }  
+      .NavBar li a {  
+      color: lightyellow;  
+      font-size: 25px;
+      font-family: serif;
+      text-decoration: none;  
+      /*Animation*/
+      background: linear-gradient(to bottom, var(--mainColor) 0%, var(--mainColor) 100%);
+    background-position: 0 100%;
+    background-repeat: repeat-x;
+    background-size: 3px 3px;
+    text-decoration: none;
+      }  
+      .NavBar li a:hover{
+      background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23ff9800' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+      background-position: 0 100%;
+      background-size: auto 6px;
+      background-repeat: repeat-x;
+      color: white;
+      text-decoration: none;
+      }
+      /*For title*/
+      .Title{ 
+        position: absolute;
+          font-size: 65px;
+          font-family: serif;
+          background-color: rgba(243,14,17,255);
+          color: white;
+          width: 100%;
+        left: 0px;
+        top: 80px;
+
+        z-index: 1;
+      }
+      /*For body Animation*/
+      body {
+        animation: fadeInAnimation ease 3s;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+    }
+     
+    @keyframes fadeInAnimation {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+         }
+    }
+    /*For Body Content*/
+      body{ 
+        background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+        background-image: url("images/YumFoodBackground.jpg") ;
+        background-position: center;
+        background-size: cover;
+      }
+      .ImageDescription{
+        position: absolute;
+        top: 150px;
+        width: 30%;
+        left: 0px;
+        height: 560px;
+        padding: 10px;
+        background-color: white;
+      }
+      .whitebox {
+        position: absolute;
+        background-color: white;
+        padding: 10px;
+        left: 395px;
+        top: 270px;
+        font-size: 18px;
+        font-family:serif;
+        color: black;
+      }
+      .ContainerBull{ 
+        padding: 10px;
+        background-color: white;
+
+
+      }
+      .bulletinboard{ 
+        background-image: url(images/bulletinboard.jpg);
+        height: 800px;
+        padding: 40px;
+
+      }
+      .thumbtack2{ 
+        position: absolute;
+        z-index: 6;
+        left: 490px;
+        bottom: 180px;
+      }
+      .thumbtack3{ 
+        position: absolute;
+        z-index: 6;
+        left: 750px;
+        bottom: 300px;
+      }
+      .thumbtack4{ 
+        position: absolute;
+        z-index: 6;
+        left: 1080px;
+        bottom: 280px;
+      }
+      .thumbtack5{ 
+        position: absolute;
+        z-index: 6;
+        left: 180px;
+        bottom: -80px;
+      }
+      .thumbtack6{ 
+        position: absolute;
+        z-index: 6;
+        left: 580px;
+        bottom: -195px;
+      }
+      .thumbtack7{ 
+        position: absolute;
+        z-index: 6;
+        left: 830px;
+        bottom: -30px;
+      }
+      .thumbtack8{ 
+        position: absolute;
+        z-index: 6;
+        left: 1120px;
+        bottom: -10px;
+      }
+      .thumbtack9{ 
+        position: absolute;
+        z-index: 6;
+        left: 180px;
+        bottom: 300px;
+      }
+
+
+
+      .card {
+        position: absolute;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        transition: 0.3s;
+        padding: 10px;
+        width: 15%;
+        background-color: white;
+        left: 100px;
+        bottom: 30px;
+        z-index: 1;
+      }
+      .thumbtack1{ 
+        position: absolute;
+        z-index: 6;
+        left: 180px;
+        bottom: 300px;
+      }
+      .card:hover {
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0);
+      }
+      
+      .container {
+        padding: 2px 16px;
+      }
+
+      .card2 {
+        position: absolute;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        transition: 0.3s;
+        width: 15%;
+        background-color: white;
+        left: 400px;
+        bottom: -100px;
+        padding: 10px;
+      }
+      
+      .card2:hover {
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0);
+      }
+      
+      .container2 {
+        padding: 2px 16px;
+      }
+
+      .card3 {
+        position: absolute;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        transition: 0.3s;
+        width: 15%;
+        background-color: white;
+        left: 100px;
+        bottom: -260px;
+        padding: 10px;
+      }
+      
+      .card3:hover {
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0);
+      }
+      
+      .container3 {
+        padding: 2px 16px;
+      }
+
+      .card4 {
+        position: absolute;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        transition: 0.3s;
+        width: 15%;
+        background-color: white;
+        left: 670px;
+        bottom: 120px;
+        padding: 10px;
+      }
+      
+      .card4:hover {
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0);
+      }
+      
+      .container4 {
+        padding: 2px 16px;
+      }
+
+      .card5 {
+        position: absolute;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        transition: 0.3s;
+        width: 15%;
+        background-color: white;
+        left: 1000px;
+        bottom: 100px;
+        padding: 10px;
+      }
+      
+      .card5:hover {
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0);
+      }
+      
+      .container5 {
+        padding: 2px 16px;
+      }
+
+      .card6 {
+        position: absolute;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        transition: 0.3s;
+        width: 15%;
+        background-color: white;
+        left: 1030px;
+        bottom: -320px;
+        padding: 10px;
+      }
+      
+      .card6:hover {
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0);
+      }
+      
+      .container6 {
+        padding: 2px 16px;
+      }
+      .card7 {
+        position: absolute;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        transition: 0.3s;
+        width: 15%;
+        background-color: white;
+        left: 750px;
+        bottom: -180px;
+        padding: 10px;
+      }
+      
+      .card7:hover {
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0);
+      }
+      
+      .container7 {
+        padding: 2px 16px;
+      }
+      .card8 {
+        position: absolute;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        transition: 0.3s;
+        width: 15%;
+        background-color: white;
+        left: 500px;
+        bottom: -370px;
+        padding: 10px;
+      }
+      
+      .card8:hover {
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0);
+      }
+      
+      .container8 {
+        padding: 2px 16px;
+      }
+      /*For footer*/
+      .footer {
+        position: absolute;
+        left: 0px;
+        bottom: -480px;
+        width: 100%;
+        height: 100px;
+        background-color: red;
+        color: white;
+        text-align: center;
+      }
+      .footerinfo{ 
+        position: absolute;
+        left:  10px;
+      }
+      .footerinfo2{ 
+        position: absolute;
+        left:  10px;
+        top: 50px;
+      }
+      .LogoFooter{ 
+        position: absolute;
+        width: 100px;
+        border-radius: 50px;
+        right: 100px;
+        top: -50px;
+      }
+      .FooterDesign{
+        position: absolute;
+        transform: rotate(320deg);
+        height: 50px;
+        right: 190px;
+        top: -30px;
+      }
+      .FooterDesign2{
+        position: absolute;
+        height: 80px;
+        right: 30px;
+        top: -30px;
+      }
+      .footerinfo3{ 
+        position: absolute;
+        right:  10px;
+        top: 30px;
+        color: black;
+        
+      }
+      .footerinfo4{ 
+        position: absolute;
+        top: 50px;
+        right: 463px;
+        font-style: Serif;
+      } 
+          
+      

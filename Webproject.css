@@ -1,0 +1,185 @@
+/* */
+/*For Logo - change later to div*/
+.Logo{ 
+    width: 280px;
+    border-radius: 200px;
+    float: left;
+    margin-right: 0px;
+    margin-left: -10px;
+    color: orange;
+    background-color: rgba(54,26,22,255);
+    
+}
+.ImageLogo { 
+    width: 200px;
+    border-radius: 100px;
+   float: left;
+   margin-right: 40px;
+   }
+    /*For Navigation Bar */
+   .NavBar {  
+    background-color: rgba(54,26,22,255);  
+    position:absolute;  
+    left: 194px;  
+    right: 0px;  
+    top: 135px;  
+    bottom: 110px;
+    height: 72px;  
+    display: flex;  
+    align-items: center;
+    justify-content: center; 
+    }  
+    .NavBar * {  
+    display: inline;  
+    }  
+    .NavBar li {  
+    margin: 20px;  
+    }  
+    .NavBar li a {  
+    color: lightyellow;  
+    font-size: 40px;
+    font-family: serif;
+    text-decoration: none;  
+    /*Animation*/
+    background: linear-gradient(to bottom, var(--mainColor) 0%, var(--mainColor) 100%);
+  background-position: 0 100%;
+  background-repeat: repeat-x;
+  background-size: 3px 3px;
+  text-decoration: none;
+    }  
+    .NavBar li a:hover{
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23ff9800' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+  background-position: 0 100%;
+  background-size: auto 6px;
+  background-repeat: repeat-x;
+  color: white;
+  text-decoration: none;
+    }
+    /*For title*/
+    .Title{ 
+        font-size: 110px;
+        font-family: serif;
+        background-color: rgba(243,14,17,255);
+        color: white;
+        margin-left: 170px;
+        margin-right: 0px;
+    }
+    /*Transparent Photos*/
+    .container {
+      position: relative;
+      width: 50%;
+      left: 785px;
+      top: -10px;
+    }
+    
+    .imagetrans {
+      position: relative;
+      opacity: 1;
+      display: block;
+      width: 100%;
+      border-radius: 0%;
+      height: 500px;
+      transition: .5s ease;
+      backface-visibility: hidden;
+    }
+    
+    .middle {
+      transition: .5s ease;
+      opacity: 0;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      text-align: center;
+    }
+    
+    .container:hover .imagetrans {
+      opacity: 0.3;
+    }
+    
+    .container:hover .middle {
+      opacity: 1;
+    }
+    .PicText {
+      background-color: #04AA6D;
+      color: white;
+      font-size: 16px;
+      padding: 16px 32px;
+    }
+    .container2 {
+      position: relative;
+      width: 50%;
+      top: -510px;
+    }
+    
+    .imagetrans2 {
+      opacity: 1;
+      display: block;
+      width: 100%;
+      border-radius: 0%;
+      height: 500px;
+      transition: .5s ease;
+      backface-visibility: hidden;
+    }
+    
+    .middle2 {
+      transition: .5s ease;
+      opacity: 0;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      text-align: center;
+    }
+    
+    .container2:hover .imagetrans2 {
+      opacity: 0.3;
+    }
+    
+    .container2:hover .middle2 {
+      opacity: 1;
+    }
+    
+    .PicText2 {
+      background-color: #04AA6D;
+      color: white;
+      font-size: 16px;
+      padding: 16px 32px;
+    }
+    /*For Body */ 
+
+body{ 
+  background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+}
+.Description{ 
+  position: absolute;
+  display: block;
+  width: 50%;
+  top: 740px;
+  color: black;
+  right: 0px;
+  background-color: red;
+}
+.Description2{ 
+  position: absolute;
+  display: block;
+  width: 50%;
+  top: 740px;
+  color: black;
+  left: 0px;
+}
+.ContainerDesc{
+margin-left: 1000px;
+margin-right: 10px;
+background-color: red;
+}
+.ContainerDesc2 { 
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: red;
+  
+} 
+
+   
